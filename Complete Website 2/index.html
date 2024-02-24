@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="https://preview.colorlib.com/#florist">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster+Two&display=swap" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+
+
+  <div id="mh">
+<div id="head" class="container p-2">
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active p-3" aria-current="page" href="index.html" id="hh">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-3" href="about.html" id="la">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-3" href="service.html" id="la">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-3" href="shop.html" id="la">SHOP</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle p-3" id="la" href="pages.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PAGES
+                </a>
+                <ul class="dropdown-menu bg-black">
+                  <li><a class="dropdown-item" href="cart.html" id="laa">Cart</a></li>
+                  <li><a class="dropdown-item" href="checkout.html"  id="laa">Checkout</a></li>
+                  <li><a class="dropdown-item" href="wishlist.html"  id="laa">Wishlist</a></li>
+                  <li><a class="dropdown-item" href="portfolio.html"  id="laa">Portfolio</a></li>
+                  <li><a class="dropdown-item" href="ShopDetails.html"  id="laa">Shop Details</a></li>
+                  <li><a class="dropdown-item" href="BlogDetails.html"  id="laa">Blog Details</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-3" href="blog.html" id="la">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-3" href="contact.html" id="la">CONTACT</a>
+              </li>
+            </ul>
+            <i class="bi bi-search fs-3"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="register.html" id="user"><i class="bi bi-person-circle fs-3"></i></a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+
+
+    <div id="carouselExampleAutoplaying" class="carousel slide sl" data-bs-ride="carousel">
+      <div class="carousel-inner" id="sl">
+        <div class="carousel-item active" id="sl1">
+          <img src="images/hero-1.jpg" class="d-block w-100" id="slim" alt="...">
+        </div>
+        <div id="text">
+          <span>Fresh Flower &amp; Gift Shop</span>
+          <h2 class="animate__animated animate__fadeInUp">Making beautiful flowers <br> a part of your life.</h2>
+          <a href="#" class="bt animate__animated animate__fadeInUp">SHOP NOW</a>
+        </div>
+        <div class="carousel-item sl2">
+          <img src="images/hero-2.jpg" class="d-block w-100" id="slim" alt="...">
+          <div id="text2">
+            <span>Fresh Flower &amp; Gift Shop</span>
+            <h2 class="animate__animated animate__fadeInUp">Making beautiful flowers <br> a part of your life.</h2>
+            <a href="#" class="bt1 animate__animated animate__fadeInUp">SHOP NOW</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+    <!-- benefit section start -->
+    <section id="Freshness" class="py-5">
+      <div class="container" id="fresh">
+        <div class="row">
+          <div class="col-sm-12 col-lg-3 d-flex">
+            <div class="pe-3">
+              <img src="images/benefit-1.png" alt="">
+            </div>
+            <div>
+              <h3>100% Freshness</h3>
+              <p>Most people are unaware of the less common flower</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-3 d-flex">
+            <div  class="pe-3">
+              <img src="images/benefit-2.png" alt="">
+            </div>
+            <div>
+              <h3>Made by artist</h3>
+              <p>Most people are unaware of the less common flower</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-3 d-flex">
+            <div  class="pe-3">
+              <img src="images/benefit-3.png" alt="">
+            </div>
+            <div>
+              <h3>Own courier</h3>
+              <p>Most people are unaware of the less common flower</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-3 d-flex">
+            <div  class="pe-3">
+              <img src="images/benefit-4.png" alt="">
+            </div>
+            <div>
+              <h3>100% Freshness</h3>
+              <p>Most people are unaware of the less common flower</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    <!-- benefits section over -->
+
+
+
+    
+    <!-- flower section start -->
+    <section id="flower" class="">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-sm-12 col-md-6 col-lg-3 position-relative mb-5">
+            <div id="imgf">
+                <img src="images/categories-1.jpg" class="h-100 w-100" alt="">
+            </div>
+            <div class="position-absolute  mx-3 mb-2" id="textf">
+              <div id="textff" class="justify-content-center text-center p-1">
+                <h2>Fresh Flower</h2>
+                <p>( 25 items )</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 position-relative mb-5">
+            <div id="imgf">
+              <img src="images/categories-2.jpg" class="h-100 w-100" alt="">
+            </div>
+            <div class="position-absolute  mx-3 mb-2" id="textf">
+              <div id="textff" class="justify-content-center text-center p-1">
+                <h2>Succulent plants</h2>
+                <p>( 162 items )</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 position-relative mb-5">
+            <div id="imgf">
+              <img src="images/categories-3.jpg" class="h-100 w-100" alt="">
+            </div>
+            <div class="position-absolute  mx-3 mb-2" id="textf">
+              <div id="textff" class="justify-content-center text-center p-1">
+                <h2>Cactus plants</h2>
+                <p>( 58 items )</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 position-relative mb-5">
+            <div id="imgf">
+              <img src="images/categories-4.jpg" class="h-100 w-100" alt="">
+            </div>
+            <div class="position-absolute  mx-3 mb-2" id="textf">
+              <div id="textff" class="justify-content-center text-center p-1">
+                <h2>Funiture tree</h2>
+                <p>( 25 items )</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- flower section over -->
+
+
+
+    <!-- ABOUT US section start -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-5" id="abc">
+            <h6>ABOUT US</h6>
+            <h2>We provide all kinds of fresh flower services</h2>
+          </div>
+          <div class="col-sm-12 col-lg-7" id="abc">
+            <p>For Heather Henson, of Boreal Blooms in Cold Lake, Alberta, Canada, growing flowers that can be dried and incorporated into late fall and winter floral arrangements has been a game-changer. During her growing season, this farmer-florist relies on a vivid palette of annuals, perennials and ornamental grasses to supply her studio.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT US section over -->
+
+
+
+    <!-- contact us section start -->
+    <section id="contact">
+      <div class="container" id="contcm">
+        <div class="row position-relative" id="contc">
+          <div class="col-sm-12 col-lg-7 position-relative" id="coni">
+              <img src="images/about-video.jpg" class="img-fluid" alt="">
+              <div id="cobi" class="position-absolute">
+               <a href="https://www.youtube.com/watch?v=aIoT2FTb9fw" id="cobii"><i class="bi bi-play-fill"></i></a> 
+              </div>
+          </div>
+          <div class="col-sm-12 col-lg-5 bg-white shadow-lg" id="textcon">
+            <h6>SLOW FLOWERS’ FLORAL INSIGHTS</h6>
+            <h1>Dried flowers are having a renaissance</h1>
+            <p>This awareness has been stimulated by sustainable sourcing practices and the desire on the part of North American flower growers to “extend the season” beyond the last frost.</p>
+            <button id="btc">CONTACT US</button>
+          </div>
+        </div>
+      </div>
+    </section>
+   <!-- contact us section over  -->
+
+
+
+
+   <!-- OUR FLOWER section start -->
+   <section id="our">
+    <div id="ourtext" class="text-center">
+      <h6>OUR FLOWER</h6>
+      <h2>New Arrivals</h2>
+    </div>
+    <div>
+        <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#" id="aou">ALL</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" id="ao">Bouquet</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" id="ao">Flower Box</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="ao">Flower Shelf</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="ao">Basket of Flower</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="ao">Gift Combos</a>
+      </li>
+    </ul>
+  </div>
+  <div class="container">
+    <div id="newc">
+      <div id="newi" class="position-relative">
+        <div>
+          <img src="images/product-1.jpg" alt="">
+        </div>
+        <div id="newtext" class="text-center">
+          <h5>Plants nature cactus
+          </h5>
+          <h6>$27.50</h6>
+          <a href="" id="newa">ADD TO CART</a>
+        </div>
+        <div class="position-absolute" id="newicon">
+          <i class="bi bi-search" id="bin"></i>
+          <i class="bi bi-bag" id="bin"></i>
+          <i class="bi bi-heart" id="bin"></i>
+        </div>
+        <div id="newtop">
+          <p>NEW</p>
+        </div>
+      </div>
+      <div id="newi" class="position-relative">
+        <div>
+          <img src="images/product-2.jpg" alt="">
+        </div>
+        <div id="newtext" class="text-center">
+          <h5>Chinese peony</h5>
+          <h6>$27.50</h6>
+          <a href="" id="newa">ADD TO CART</a>
+        </div>
+        <div class="position-absolute" id="newicon">
+          <i class="bi bi-search" id="bin"></i>
+          <i class="bi bi-bag" id="bin"></i>
+          <i class="bi bi-heart" id="bin"></i>
+        </div>
+      </div>
+      <div id="newi" class="position-relative">
+        <div>
+          <img src="images/product-3.jpg" alt="">
+        </div>
+        <div id="newtext" class="text-center">
+          <h5>Hanging Weeping Figs</h5>
+          <h6>$27.50</h6>
+          <a href="" id="newa">ADD TO CART</a>
+        </div>
+        <div class="position-absolute" id="newicon">
+          <i class="bi bi-search" id="bin"></i>
+          <i class="bi bi-bag" id="bin"></i>
+          <i class="bi bi-heart" id="bin"></i>
+        </div>
+        <div id="newtop">
+          <p>SALE</p>
+        </div>
+      </div>
+      <div id="newi" class="position-relative">
+        <div>
+          <img src="images/product-4.jpg" alt="">
+        </div>
+        <div id="newtext" class="text-center">
+          <h5>Peonies Unsplash</h5>
+          <h6>$27.50</h6>
+          <a href="" id="newa">ADD TO CART</a>
+        </div>
+        <div class="position-absolute" id="newicon">
+          <i class="bi bi-search" id="bin"></i>
+          <i class="bi bi-bag" id="bin"></i>
+          <i class="bi bi-heart" id="bin"></i>
+        </div>
+      </div>
+      <div id="newi" class="position-relative">
+        <div>
+          <img src="images/product-5.jpg" alt="">
+        </div>
+        <div id="newtext" class="text-center">
+          <h5>Histoculture for Cannabis</h5>
+          <h6>$27.50</h6>
+          <a href="" id="newa">ADD TO CART</a>
+        </div>
+        <div class="position-absolute" id="newicon">
+          <i class="bi bi-search" id="bin"></i>
+          <i class="bi bi-bag" id="bin"></i>
+          <i class="bi bi-heart" id="bin"></i>
+        </div>
+      </div>
+      <div id="newi" class="position-relative">
+        <div>
+          <img src="images/product-6.jpg" alt="">
+        </div>
+         <div id="newtext" class="text-center">
+          <h5>Eucalyptus cinerea plant</h5>
+          <h6>$27.50</h6>
+          <a href="" id="newa">ADD TO CART</a>
+        </div>
+        <div class="position-absolute" id="newicon">
+          <i class="bi bi-search" id="bin"></i>
+          <i class="bi bi-bag" id="bin"></i>
+          <i class="bi bi-heart" id="bin"></i>
+        </div>
+      </div>
+      <div id="newi" class="position-relative">
+        <div>
+          <img src="images/product-7.jpg" alt="">
+        </div>
+         <div id="newtext" class="text-center">
+          <h5>Orchid Primrose</h5>
+          <h6>$27.50</h6>
+          <a href="" id="newa">ADD TO CART</a>
+        </div>
+        <div class="position-absolute" id="newicon">
+          <i class="bi bi-search" id="bin"></i>
+          <i class="bi bi-bag" id="bin"></i>
+          <i class="bi bi-heart" id="bin"></i>
+        </div>
+        <div id="newtop">
+          <p>OUT OF STOCK</p>
+        </div>
+      </div>
+      <div id="newi" class="position-relative">
+        <div>
+          <img src="images/product-8.jpg" alt="">
+        </div>
+         <div id="newtext" class="text-center">
+          <h5>Aloe vera</h5>
+          <h6>$27.50</h6>
+          <a href="" id="newa">ADD TO CART</a>
+        </div>
+        <div class="position-absolute" id="newicon">
+          <i class="bi bi-search" id="bin"></i>
+          <i class="bi bi-bag" id="bin"></i>
+          <i class="bi bi-heart" id="bin"></i>
+        </div>
+        <div id="newtop">
+          <p>NEW</p>
+        </div>
+      </div>
+      <div id="newi" class="position-relative">
+        <div>
+          <img src="images/product-9.jpg" alt="">
+        </div>
+         <div id="newtext" class="text-center">
+          <h5>Hyacinth Plant </h5>
+          <h6>$27.50</h6>
+          <a href="" id="newa">ADD TO CART</a>
+        </div>
+        <div class="position-absolute" id="newicon">
+          <i class="bi bi-search" id="bin"></i>
+          <i class="bi bi-bag" id="bin"></i>
+          <i class="bi bi-heart" id="bin"></i>
+        </div>
+      </div>
+      <div id="newi" class="position-relative">
+        <div>
+          <img src="images/product-10.jpg" alt="">
+        </div>
+        <div id="newtext" class="text-center">
+          <h5>green hydrangea flowers</h5>
+          <h6>$27.50</h6>
+          <a href="" id="newa">ADD TO CART</a>
+        </div>
+        <div class="position-absolute" id="newicon">
+          <i class="bi bi-search" id="bin"></i>
+          <i class="bi bi-bag" id="bin"></i>
+          <i class="bi bi-heart" id="bin"></i>
+        </div>
+        <div id="newtop">
+          <p>NEW</p>
+        </div>
+      </div>
+    </div>
+  </div>
+   </section>
+   <!-- OUR FLOWER section over -->
+
+
+
+   <!-- CUSTOM FLOWER section start -->
+   <section id="custom">
+      <div id="customm" class="container">
+          <h6>CUSTOM FLOWER</h6>
+          <h2>Let our flowers<br> make  your party <br> more perfect.</h2>
+          <button id="btnc">ORDER NOW</button> &nbsp;&nbsp;&nbsp;<button id="btnc1">CONTACT US</button>
+      </div>
+   </section>
+   <!-- CUSTOM FLOWER section over -->
+
+
+
+   <!-- Florist tricks section start -->
+   <section id="florist">
+    <div class="container">
+      <div class="row d-flex justify-content-between">
+        <div class="col-sm-12 col-lg-6" id="flotext">
+          <h6>LATEST POSTS</h6>
+          <h2>Florist tricks</h2>
+        </div>
+        <div class=" col-sm-12 col-lg-2">
+          <button id="btnf">VIEW ALL POSTS</button>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-evenly py-5">
+        <div class="col-sm-12 col-md-7 col-xl-4 shadow mb-md-5" id="florc">
+          <div>
+            <img src="images/blog-1.jpg" class="img-fluid w-100 h-100" alt="">
+          </div>
+          <div  id="flori" class="text-center">
+              <h3>8 Romantic Gifts to Celebrate Your Wedding Anniversary</h3>
+              <p>Flowers have a language all their own. In Victorian times, receiving a…</p>
+              <p>MAY 22, 2020</p>
+          </div>
+          <div id="flotr">
+            <h6>TREND NEWS</h6>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-7 col-xl-4 shadow mb-md-5" id="florc">
+          <div>
+            <img src="images/blog-2.jpg" class="img-fluid w-100 h-100" alt="">
+          </div>
+          <div  id="flori" class="text-center">
+            <h3>Red Rose - Flower of love of Greek Mythology</h3>
+            <p>Flowers have a language all their own. In Victorian times, receiving a…</p>
+            <p>MAY 22, 2020</p>
+        </div>
+        <div id="flotr">
+          <h6>TIPS & IDEA</h6>
+        </div>
+        </div>
+        <div class="col-sm-12 col-md-7 col-xl-4 shadow mb-md-5" id="florc">
+          <div>
+            <img src="images/blog-3.jpg" class="img-fluid w-100 h-100" alt="">
+          </div>
+          <div  id="flori" class="text-center">
+            <h3>Beautiful Mandalas Made From Flowers by Kathy Klein</h3>
+            <p>Flowers have a language all their own. In Victorian times, receiving a…</p>
+            <p>MAY 22, 2020</p>
+        </div>
+        <div id="flotr">
+          <h6>DIY & CRAFTS</h6>
+        </div>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- Florist tricks section over -->
+
+
+   <!-- slider section start -->
+   <section id="slide" class="position-relative">
+    
+        <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide d-flex text-center">
+                <div id="imss">
+                  <img src="images/quote.png" class="img-fluid" id="ims" alt="">
+                  <p>“I just wanted to say thank you for making such gorgeous arrangements for our
+                    birthday celebration. I couldn’t get over how perfect they were for the
+                    party. You did a fantastic job, and I appreciate it very much”</p>
+                  <h5>Ajejandro Houston</h5>
+                  <h6>BUSINESSMAN</h6>
+                </div>
+              </div>
+              <div class="swiper-slide d-flex text-center">
+                <div id="imss">
+                  <img src="images/quote.png" class="img-fluid" id="ims" alt="">
+                  <p>“I just wanted to say thank you for making such gorgeous arrangements for our
+                    birthday celebration. I couldn’t get over how perfect they were for the
+                    party. You did a fantastic job, and I appreciate it very much”</p>
+                  <h5>Ajejandro Houston</h5>
+                  <h6>BUSINESSMAN</h6>
+                </div>
+              </div>
+              <div class="swiper-slide d-flex text-center" >
+                <div id="imss">
+                  <img src="images/quote.png" class="img-fluid" id="ims" alt="">
+                  <p>“I just wanted to say thank you for making such gorgeous arrangements for our
+                    birthday celebration. I couldn’t get over how perfect they were for the
+                    party. You did a fantastic job, and I appreciate it very much”</p>
+                  <h5>Ajejandro Houston</h5>
+                  <h6>BUSINESSMAN</h6>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+   </section>
+   <!-- slider section over -->
+
+
+
+   <!-- follow us section start -->
+   <section id="follow">
+    <div id="fom">
+      <div id="fimg" class="position-relative">
+        <div>
+          <img src="images/insta-1.jpg" alt="">
+        </div>
+        <div id="foc" class="text-center py-3">
+           <div id="foci">
+                <i class="bi bi-instagram fs-3" id="fbi"></i>
+                <h6 class="fs-5">Follow us</h6>
+                <a href="" class="fs-5" id="fa">@florist</a>
+           </div>
+        </div>
+      </div>
+      <div id="fimg"  class="position-relative">
+        <div>
+          <img src="images/insta-2.jpg" alt="">
+        </div>
+        <div id="foc" class="text-center py-3">
+          <div id="foci">
+               <i class="bi bi-facebook fs-3 text-primary" id="fbi"></i>
+               <h6 class="fs-5">Follow us</h6>
+               <a href="" class="fs-5" id="fa">@florist</a>
+          </div>
+       </div>
+      </div>
+      <div id="fimg"  class="position-relative">
+        <div>
+          <img src="images/insta-3.jpg" alt="">
+        </div>
+        <div id="foc" class="text-center py-3">
+          <div id="foci">
+               <i class="bi bi-youtube fs-3 text-danger" id="fbi"></i>
+               <h6 class="fs-5">Follow us</h6>
+               <a href="" class="fs-5" id="fa">@florist</a>
+          </div>
+       </div>
+      </div>
+      <div id="fimg"  class="position-relative">
+        <div>
+          <img src="images/insta-4.jpg" alt="">
+        </div>
+        <div id="foc" class="text-center py-3">
+          <div id="foci">
+               <i class="bi bi-twitter fs-3 text-primary" id="fbi"></i>
+               <h6 class="fs-5">Follow us</h6>
+               <a href="" class="fs-5" id="fa">@florist</a>
+          </div>
+       </div>
+      </div>
+      <div id="fimg"  class="position-relative">
+        <div>
+          <img src="images/insta-5.jpg" alt="">
+        </div>
+        <div id="foc" class="text-center py-3">
+          <div id="foci">
+               <i class="bi bi-pinterest fs-3 text-danger" id="fbi"></i>
+               <h6 class="fs-5">Follow us</h6>
+               <a href="" class="fs-5" id="fa">@florist</a>
+          </div>
+       </div>
+      </div>
+    </div>
+   </section> 
+   <!-- follow us section over -->
+
+   <!-- significant market section start -->
+   <section id="market" class="py-4">
+    <div class="container">
+      <div id="mac">
+        <img src="images/logo.png" class="img-fluid" alt="">
+        <p class="fs-5">The floristry business has a significant market in the corporate and social event world, <br> as flowers</p>
+        <div class="p-2 fs-5">
+          <i class="bi bi-facebook p-2"></i><i class="bio bi-twitter p-2"></i><i class="bi bi-instagram  p-2"></i><i class="bi bi-linkedin p-2"></i>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- significant market section over -->
+
+
+
+
+   <footer>
+      <div class="container">
+        <div class="row d-flex justify-content-evenly">
+          <div class="col-sm-12 col-lg-2" id="fc">
+            <h5 class="pb-3">Company</h5>
+            <p><a href="" id="af">About us</a><br></p> 
+            <p><a href="">Services</a><br></p>
+            <p><a href="">Contact us</a></p>
+          </div>
+          <div class="col-sm-12 col-lg-2" id="fc">
+            <h5 class="pb-3">Account</h5>
+            <p><a href="">My cart</a><br></p> 
+            <p><a href="">Wishlist</a><br></p> 
+            <p><a href="">Login/Register</a></p>
+          </div>
+          <div class="col-sm-12 col-lg-3" id="fc">
+            <h5 class="pb-3">Newletter</h5>
+            <p>Subcribe to our newsletter to get more free tips. No Spam, Promise.</p>
+            <input type="email" placeholder="Email" id="fe"><span>SUBSCRIBE</span>
+          </div>
+          <div class="col-sm-12 col-lg-3" id="fc">
+            <h5 class="pb-3">Get in touch</h5>
+            <p><a href="">69 North Cleveland Street, Memphis,USA.</a></p>
+            <p><a href="">(123) 8111 9210 - (012) 1111 6868</a></p>
+            <p><a href="">Florisr@supportthem.com</a></p>
+          </div>
+        </div> 
+      </div>
+      <div class="container py-5">
+        <div class="d-flex justify-content-center">
+          <p class="fs-5">Copyright ©2023 All rights reserved | Created by : <span id="spf">Madhavi Khunt</span></p>
+        </div>
+      </div>
+   </footer>
+     
+
+   
+
+
+
+
+   
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+</body>
+</html>
