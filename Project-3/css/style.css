@@ -1,0 +1,829 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 120vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(../images/bg1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#head{
+    background-color: rgb(118, 182, 21);
+    width: 75%;
+}
+#headc{
+    background-color: black;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+#headm1{
+    color: rgb(160, 158, 158);
+}
+#headm{
+    color: white;
+}
+#fah{
+    padding: 10px;
+}
+#fah:hover{
+    color: orange;
+}
+#fa1:hover{
+    color: orange;
+}
+#tec{
+    position: absolute;
+    top: 300px;
+    left: 30%;
+    text-align: center;
+}
+#or{
+    color: rgb(118, 182, 21);
+}
+#tec h1{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+#tec p{
+    color: white;
+    font-size: 23px;
+}
+#p1{
+    padding-bottom: 100px;
+}
+#btn{
+    color: white;
+    border: 0px solid black;
+    border-radius: 20px;
+    padding: 8px 50px;
+    background-color: rgb(118, 182, 21);
+}
+#btn:hover{
+    border: 1px solid rgb(118, 182, 21);
+    background-color: transparent;
+    color: rgb(118, 182, 21);
+}
+#img1{
+    width: 50%;
+    margin-left: -3%;
+    /* border: 1px solid white; */
+}
+#img2{
+    /* border: 1px solid black; */
+    width: auto;
+    position: absolute;
+    right: 0px;
+    bottom: -260px;
+}
+#service{
+    width: 100%;
+    height: auto;
+}
+#img3{
+    margin-top:-120px;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+#img3 img{
+    width: 100%;
+    background-size: cover;
+}
+#serm{
+    height: auto;
+    background-image: url(../images/bg2.jpg);
+    /* border: 1px solid black; */
+    background-size: cover;
+    object-fit: fill;
+}
+#serc{
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(131, 128, 128);
+}
+#serc h1{
+    font-size: 50px;
+}
+#line{
+    border: 1px solid rgb(118, 182, 21);
+    margin: 30px 700px;
+}
+#serc p{
+    font-size: 22px;
+}
+#servim{
+    height: auto;
+    width: 75%;
+    padding-bottom: 100px;
+}
+#servic{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#fas{
+    color:rgb(118, 182, 21) ;
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+#sert{
+    color: gray;
+}
+#sert p{
+    padding: 0px 11px;
+}
+#farm{
+    height: 110vh;
+    width: 100%;
+    background-image:url(../images/bg.jpg);
+    background-attachment: fixed;
+}
+#farm1{
+    height: 110vh;
+    background-image: url(../images/diagonalstripe-black.png);
+}
+#farmm{
+    text-align: center;
+    color: white;
+    position: relative;
+    padding-bottom: 100px;
+}
+#line1{
+    border: 1px solid rgb(118, 182, 21);
+    margin: 30px 700px;
+}
+#farmm h1{
+    font-size: 50px;
+}
+#farmm p{
+    font-size: 23px;
+}
+#counter{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+#count{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#count1{
+    width: 80%;
+    height: inherit;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.counter{
+    flex-basis: 20%;
+    height: inherit;
+    padding: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    color:white;
+    font-size: 35px;
+    border-right: 1px solid rgb(171, 167, 167);
+    /* background-color: white; */
+    /* border: 1px solid red; */
+}
+#count2{
+    height: 100px;
+    width: auto;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#count3{
+    width: 80%;
+    height: inherit;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.counter2{
+    flex-basis: 20%;
+    height: inherit;
+    padding: 40px 0px;
+    text-align: center;
+    color:white;
+    border-right: 1px solid rgb(171, 167, 167);
+    font-size: 22px;
+}
+.counter2:nth-of-type(4){
+    border-right: 0px solid black;
+}
+.counter:nth-of-type(4){
+    border-right: 0px solid black;
+}
+#img4{
+    width: auto;
+    position: absolute;
+    right: 0;
+    /* border: 1px solid black; */
+}
+#img5{
+    width: 100%;
+    margin-top: -118px;
+    /* border: 1px solid black; */
+}
+#img5 img{
+    width: 100%;
+    /* z-index: -1; */
+}
+#delivery{
+    height: auto;
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    padding-bottom: 200px;
+    /* border: 1px solid red; */
+}
+#delim{
+    height: auto;
+    width: 75%;
+    padding-top: 100px;
+}
+#delii{
+    padding-top: 90px;
+    /* border: 1px solid black; */
+}
+#delii h6{
+    color: gray;
+}
+#spd{
+    color: rgb(118, 182, 21);
+}
+#delii h1{
+    font-size: 70px;
+    color: gray;
+    padding-bottom: 30px;
+}
+#delii p{
+    color: rgb(111, 109, 109);
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+#btnd{
+    padding: 10px 40px;
+    border: 0px solid black;
+    border-radius: 20px;
+    background-color: rgb(118, 182, 21);
+    color: white;
+    border: 1px solid  rgb(118, 182, 21);
+}
+#btnd:hover{
+    background-color: transparent;
+    border: 1px solid rgb(118, 182, 21);
+    color: rgb(118, 182, 21);
+}
+#btnd1{
+    padding: 10px 40px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: transparent;
+    color: gray;
+}
+#btnd1:hover{
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+#offer{
+    width: 75%;
+    height: auto;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+#offm{
+    border: 0px solid black;
+    /* border: 1px solid red; */
+}
+#offc{
+    border-right: 1px solid gray;
+    margin: 30px 0px;
+    text-align: center;
+    /* border: 1px solid rebeccapurple; */
+}
+#offc:nth-of-type(4){
+    border-right: 0px solid gray;
+}
+#offc h6{
+    background-color: rgb(216, 8, 8);
+    width: 40px;
+   padding: 5px;
+   color: white;
+}
+#imgo{
+    /* border: 1px solid black; */
+    position: relative;
+    cursor: pointer;
+}
+#imgo::before{
+    content: "";
+    /* margin-left: 12px; */
+    height: 230px;
+    width:0px;
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    background: rgba(118, 182, 21, 0.527);
+    margin-top:5px ;
+    transition: 2s;
+
+}
+#imgo:hover::before{
+    width: 255px;
+}
+#faim{
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size:25px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+#imgo:hover #faim{
+    display: block;
+}
+#fao{
+    color: rgb(118, 182, 21);
+    margin: 2px;
+    margin-bottom: 20px;
+}
+#fao1{
+    color: gray;
+    margin: 2px;
+    margin-bottom: 20px;
+}
+#offc h5{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+#btno{
+    padding: 9px 30px;
+    background-color: rgb(236, 192, 34);
+    color: white;
+    border-radius: 20px;
+    border: 0px solid black;
+}
+#btno:hover{
+    background-color: rgb(118, 182, 21) ;
+}
+#grow{
+    height: auto;
+    width: 100%;
+    background-color: rgb(21, 19, 19);
+    position: relative;
+    /* border: 1px solid red; */
+}
+#grim{
+    position: absolute;
+    top: -120px;
+    width: 100%;
+    height: 400px;
+}
+#grim img{
+    width: 100%;
+}
+#growm{
+    height: auto;
+    color: rgb(231, 222, 222);
+    text-align: center;
+    padding: 80px 0px;
+}
+#growm h1{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+#growm p{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+#growm button{
+    padding: 8px 30px;
+    background-color: rgb(118, 182, 21) ;
+    border: 0px solid black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+#btngr:hover{
+    border: 1px solid rgb(118, 182, 21);
+    background-color: transparent;
+    color: rgb(118, 182, 21);
+}
+#growm button:nth-of-type(2){
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 8px 30px;
+    border-radius: 20px;
+}
+#growm button:nth-of-type(2):hover{
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    padding: 8px 30px;
+    border-radius: 20px;
+}
+#grim1 img{
+    width: 100%;
+}
+#package{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: rgb(245, 245, 245);
+}
+#packm{
+    text-align: center;
+    padding: 70px 0px;
+    color: gray;
+    /* border: 1px solid red; */
+}
+#packi{
+    padding-bottom: 200px;
+    /* border: 1px solid red; */
+}
+#packd1{
+    background-color: white;
+    color: gray;
+    padding: 30px 0px;
+}
+#packd1 h3{
+    color: black;
+}
+#packd1 h1{
+    font-size: 50px;
+}
+#packc{
+    height: auto;
+    width: 75%;
+    color: gray;
+    /* border: 1px solid red; */
+}
+#linep{
+    border: 1px solid rgb(231, 229, 229);
+    padding: 0px;
+    margin: 20px 0px;
+    width: 100%;
+}
+#packd{
+    border: 1px solid black;
+    padding: 30px 0px;
+}
+#packd h3{
+    color: black;
+}
+#packd h1{
+    font-size: 50px;
+}
+#packd button{
+    padding: 8px 30px;
+    background-color: rgb(184, 184, 8);
+    border: 0px solid black;
+    color: white;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+#packd button:hover{
+    background-color: white;
+    color:rgb(184, 184, 8) ;
+    border: 1px solid rgb(184, 184, 8);
+}
+#packd1 button{
+    padding: 8px 30px;
+    background-color: rgb(118, 182, 21);
+    border: 0px solid black;
+    color: white;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+#packd1 button:hover{
+    background-color: white;
+    border: 1px solid rgb(118, 182, 21);
+    color: rgb(118, 182, 21);
+}
+#imgg{
+    position: absolute;
+    right: 0;
+    bottom: -150px;
+    /* border: 1px solid yellow; */
+}
+#imgg1{
+    position: absolute;
+    top: -170px;
+    left: 0;
+    /* border: 1px solid yellow; */
+}
+#grimf{
+    position: absolute;
+    top: -120px;
+    /* border: 1px solid yellow; */
+}
+#grimf img{
+    width: 100%;
+}
+footer{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    padding:60px 0px;
+    position: relative;
+    padding-top: 80px;
+    /* border: 1px solid red; */
+}
+#imgfe{
+    position: absolute;
+    top: -270px;
+}
+#foot{
+    width: 75%;
+    /* border: 1px solid yellow;  */
+    color: white;
+}
+#footc{
+    text-align: center;
+    /* border: 1px solid red; */
+}
+#footh h4{
+    color: white;
+}
+#footh2{
+    background-color: rgb(118, 182, 21);
+    padding: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#footh{
+    text-align: left;
+}
+#foote{
+    text-align: left;
+    margin-left: -50px;
+}
+#foote h6{
+    color: gray;
+}
+#foote h5{
+    cursor: pointer;
+}
+#imgf{
+    cursor: pointer;
+}
+#line2{
+    border: 1px solid rgb(118, 182, 21);
+   margin: 10px 0px;
+   width: 30%;
+   margin-bottom: 30px;
+}
+#footh3{
+    text-align: left;
+   padding-left: 40px;
+}
+#footen{
+    width: 75%;
+    /* border: 1px solid white; */
+    margin-top: 80px;
+    border-top: 4px solid white;
+}
+#footen1{
+    color: white;
+    /* border: 1px solid white; */
+}
+
+#footen2 h5{
+    color: white;
+    padding: 5px;
+    padding-top: 20px;
+}
+#ul1{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    margin-left: 190px;
+    padding-top: 20px;
+}
+#ul1 li{
+    padding: 0px 9px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query start */
+@media(min-width:992px) and (max-width:1200px){
+    header{
+        height:150vh;
+    }
+    #tec{
+        left: 30%;
+    }
+    #img2{
+        width: auto;
+        right: 00px;
+        bottom: -350px;
+    }
+    #line{
+        display: none;
+    }
+    #delii{
+        padding-top: 0px;
+        /* border: 1px solid black; */
+    }
+    #delii h1{
+        font-size: 40px;
+        padding-bottom: 0;
+    }
+    #btnd{
+        padding: 5px 30px;
+    }
+    #btnd1{
+        padding: 5px 30px;
+    }
+    #offc{
+        border-right: 0px solid gray;
+    }
+    #ul1{
+        margin-left: 0px;
+    }
+    #foote{
+        text-align: center;
+    }
+    #ul1{
+        margin-left: 0px;
+    }
+    #grim img{
+        display: none;
+    }
+    #grimf img{
+        display: none;
+    }
+}
+@media(min-width:768px) and (max-width:992px){
+    #headc{
+        display: none;
+    }
+    header{
+        height:150vh;
+    }
+    #tec{
+        left: 10%;
+    }
+    #img2{
+        width: auto;
+        right: 00px;
+        bottom: -350px;
+    }
+    #line{
+        display: none;
+    }
+    #sert{
+        padding-bottom: 40px;
+    }
+    #img5{
+        margin-top: auto;
+    }
+    #offc{
+        border-right: 0px solid gray;
+    }
+    #foote{
+        text-align: center;
+    }
+    #ul1{
+        margin-left: 0px;
+    }
+    #grim img{
+        display: none;
+    }
+    #grimf img{
+        display: none;
+    }
+    
+}
+@media(min-width:576px) and (max-width:768px){
+    #headc{
+        display: none;
+    }
+    header{
+        height:150vh;
+    }
+    #tec{
+        left: 10%;
+    }
+    #img2{
+        width: auto;
+        right: 00px;
+        bottom: -350px;
+    }
+    #line{
+        display: none;
+    }
+    #sert{
+        padding-bottom: 40px;
+    }
+    .counter{
+        border-right: 0px solid rgb(171, 167, 167);
+    }
+    .counter2{
+        border-right: 0px solid rgb(171, 167, 167);
+    } #img5{
+        margin-top: auto;
+    }
+    #offc{
+        border-right: 0px solid gray;
+    }
+    #foote{
+        text-align: center;
+    }
+    #ul1{
+        margin-left: 0px;
+    }
+    #grim img{
+        display: none;
+    }
+    #grimf img{
+        display: none;
+    }
+
+}
+@media(min-width:0px) and (max-width:576px){
+    #headc{
+        display: none;
+    }
+    header{
+        height:150vh;
+    }
+    #tec{
+        left: 10%;
+    }
+    #img2{
+        width: auto;
+        right: 00px;
+        bottom: -350px;
+    }
+    #line{
+        display: none;
+    }
+    #sert{
+        padding-bottom: 40px;
+    }
+    .counter{
+        border-right: 0px solid rgb(171, 167, 167);
+    }
+    .counter2{
+        border-right: 0px solid rgb(171, 167, 167);
+    }
+    #img5{
+        margin-top: auto;
+    }
+    #offc{
+        border-right: 0px solid gray;
+    }
+    #foote{
+        text-align: center;
+    }
+    #ul1{
+        margin-left: 0px;
+    }
+    #grim img{
+        display: none;
+    }
+    #grimf img{
+        display: none;
+    }
+}
