@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop-Category</title>
+    <!-- Website link --> <link rel="stylesheet" href="https://preview.colorlib.com/#eiser">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- css link --> <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+</head>
+<body>
+
+    
+    <div  id="head">
+        <div id="heu">
+            <div class=" container d-flex justify-content-between" id="hec">
+                <div id="heum">
+                <span> PHONE: +01 256 25 235</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span> EMAIL: INFO@EISER.COM</span>
+                </div>
+                <div id="heum">
+                    <span id="sph" style="text-decoration: none;"><a href="shopping_cart.html" style="text-decoration: none;" class="text-black">GIFT CARD</a></span>&nbsp;&nbsp;&nbsp;
+                    <span id="sph" style="text-decoration: none;"><a href="tracking.html" style="text-decoration: none;" class="text-black">TRACK ORDER</a></span>&nbsp;&nbsp;&nbsp;
+                    <span id="sph" style="text-decoration: none;"> <a href="contact.html" style="text-decoration: none;" class="text-black">CONTACT US</a></span>
+                </div>
+            </div>
+        </div>
+        <div  id="nah">
+            <div class="container">
+        <nav class="navbar navbar-expand-lg" id="headm">
+          <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-1">
+                        <a class="nav-link active " aria-current="page" href="index.html" id="la1">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown px-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="la" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            SHOP
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item ps-4" href="shop_category.html">SHOP CATEGORY</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item ps-4" href="Product_details.html"> PRODUCT DETAILS</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item ps-4" href="Product Checkout.html">PRODUCT CHECKOUT</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item ps-4" href="shopping_cart.html">SHOPPING CART</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown px-1">
+                            <a class="nav-link dropdown-toggle" id="la" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            BLOG
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item ps-4" href="blog.html">BLOG</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item ps-4" href="blog_details.html">BLOG DETAILS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown px-1">
+                            <a class="nav-link dropdown-toggle" id="la" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                PAGES
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item ps-4" href="tracking.html">TRACKING</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item ps-4" href="elements.html">ELEMENTS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" id="la" href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                <div>
+                    <i class="bi bi-search" id="fah"></i>
+                    <i class="bi bi-cart" id="fah"></i>
+                    <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="btnh">
+                            Login
+                            </button>
+                            <!-- Vertically centered modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Login Form</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input type="email" placeholder="Enter Your Email" class="form-control" required><br>
+                                        <input type="password" placeholder="Enter Password" name="" id="" class="form-control" required>
+                                        <br>
+                                        <button type="button" class="btn btn-primary form-control">Login</button>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <P>Not a member ? <a href="account.html" style="text-decoration: none;">Create an Account</a></P>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                                </div>
+                            </div>
+             </nav>
+            </div>
+        </div>
+        </div>
+
+
+
+    <!-- shop category section start -->
+    <section id="category1" class="">
+        <div class="container p-5 ">
+            <div class="row justify-content-between ">
+                <div class=" col-sm-12 col-md-6">
+                    <h3>Shop Category</h3>
+                    <p>Very us move be blessed multiply night</p>
+                </div>
+                <div class=" col-sm-12  col-md-6 d-flex m-auto">
+                    <li style="list-style: none;" class="p-3"> <a  href="index.html" class="nav-link" id="cli">Home</a></li>
+                    <li style="list-style: none;" class="p-3"> <a href="shop_category.html" class="nav-link"  id="cli">Shop</a></li>
+                    <li style="list-style: none;" class="p-3"> <a href="" class="nav-link"  id="cli">Women Fashion</a></li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- shop category section over -->
+
+
+    <!-- Browse category section start -->
+    <section id="browse">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-3 " id="brosd">
+                    <div id="brosdm">
+                        <h4>Browse Categories</h4>
+                        <p>Men's Fashion</p>
+                        <p>Women's Fashion</p>
+                        <p>Men's Footwear</p>
+                        <p>Women's Footwear</p>
+                        <p>Boy's Fashion</p>
+                        <p>Girl's Fashion</p>
+                        <p>Kids Wear</p>
+                    </div>
+                    <div id="brosdm1">
+                        <h4>Product Brand</h4>
+                        <p>Denim</p>
+                        <p>Nike</p>
+                        <p>Aadidas</p>
+                        <p>Apple</p>
+                        <p>TRV</p>
+                    </div>
+                    <div id="brosdm2">
+                        <h4>Color Filter</h4>
+                        <p>Black</p>
+                        <p>Black Leather</p>
+                        <p>Black with Red</p>
+                        <p>Gold</p>
+                        <p>Spacegrey</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-9 row justify-content-evenly" id="brosdc">
+                    <div  id="bro" class="col-12 col-sm-6  col-xl-4">
+                            <div id="bros1">
+                                <img src="images/i1.jpg.webp" class="img-fluid" alt="">
+                            </div>
+                            <div id="bros2">
+                                <h6>NIKE LATEST SNEAKER</h6>
+                                <span id="spbr">$25.00 </span>&nbsp;&nbsp;&nbsp;<strike><span>$35.00</span></strike>
+                            </div>
+                            <div id="bib" class="container justify-content-center">
+                                <i class="bi bi-eye" id="bib1"></i>
+                                <i class="bi bi-heart" id="bib1"></i>
+                                <i class="bi bi-cart2" id="bib1"></i>
+                            </div>
+                        </div>
+                        <div  id="bro" class=" col-12 col-sm-6  col-xl-4">
+                            <div id="bros1">
+                                <img src="images/n3.jpg.webp" class="img-fluid" alt="">
+                            </div>
+                            <div id="bros2">
+                                <h6>NIKE LATEST SNEAKER</h6>
+                                <span id="spbr">$25.00 </span>&nbsp;&nbsp;&nbsp;<strike><span>$35.00</span></strike>
+                            </div>
+                            <div id="bib" class="container">
+                                <i class="bi bi-eye" id="bib1"></i>
+                                <i class="bi bi-heart" id="bib1"></i>
+                                <i class="bi bi-cart2" id="bib1"></i>
+                            </div>
+                        </div>
+                        <div  id="bro" class="col-12 col-sm-6  col-xl-4">
+                            <div id="bros1">
+                                <img src="images/i3.jpg.webp" class="img-fluid" alt="">
+                            </div>
+                            <div id="bros2">
+                                <h6>NIKE LATEST SNEAKER</h6>
+                                <span id="spbr">$25.00 </span>&nbsp;&nbsp;&nbsp;<strike><span>$35.00</span></strike>
+                            </div>
+                            <div id="bib" class="container">
+                                <i class="bi bi-eye" id="bib1"></i>
+                                <i class="bi bi-heart" id="bib1"></i>
+                                <i class="bi bi-cart2" id="bib1"></i>
+                            </div>
+                        </div>  
+                        <div  id="bro" class="col-12 col-sm-6  col-xl-4">
+                            <div id="bros1">
+                                <img src="images/i4.jpg.webp" class="img-fluid" alt="">
+                            </div>
+                            <div id="bros2">
+                                <h6>NIKE LATEST SNEAKER</h6>
+                                <span id="spbr">$25.00 </span>&nbsp;&nbsp;&nbsp;<strike><span>$35.00</span></strike>
+                            </div>
+                            <div id="bib" class="container">
+                                <i class="bi bi-eye" id="bib1"></i>
+                                <i class="bi bi-heart" id="bib1"></i>
+                                <i class="bi bi-cart2" id="bib1"></i>
+                            </div>
+                        </div>
+                        <div  id="bro" class="col-12 col-sm-6  col-xl-4">
+                            <div id="bros1">
+                                <img src="images/n2.jpg.webp" class="img-fluid" alt="">
+                            </div>
+                            <div id="bros2">
+                                <h6>NIKE LATEST SNEAKER</h6>
+                                <span id="spbr">$25.00 </span>&nbsp;&nbsp;&nbsp;<strike><span>$35.00</span></strike>
+                            </div>
+                            <div id="bib" class="container">
+                                <i class="bi bi-eye" id="bib1"></i>
+                                <i class="bi bi-heart" id="bib1"></i>
+                                <i class="bi bi-cart2" id="bib1"></i>
+                            </div>
+                        </div>
+                        <div  id="bro" class="col-12 col-sm-6  col-xl-4">
+                            <div id="bros1">
+                                <img src="images/n1.jpg.webp" class="img-fluid" alt="">
+                            </div>
+                            <div id="bros2">
+                                <h6>NIKE LATEST SNEAKER</h6>
+                                <span id="spbr">$25.00 </span>&nbsp;&nbsp;&nbsp;<strike><span>$35.00</span></strike>
+                            </div>
+                            <div id="bib" class="container">
+                                <i class="bi bi-eye" id="bib1"></i>
+                                <i class="bi bi-heart" id="bib1"></i>
+                                <i class="bi bi-cart2" id="bib1"></i>
+                            </div>
+                        </div>
+                        <div  id="bro" class="col-12 col-sm-6  col-xl-4">
+                            <div id="bros1">
+                                <img src="images/i7.jpg.webp" class="img-fluid" alt="">
+                            </div>
+                            <div id="bros2">
+                                <h6>NIKE LATEST SNEAKER</h6>
+                                <span id="spbr">$25.00 </span>&nbsp;&nbsp;&nbsp;<strike><span>$35.00</span></strike>
+                            </div>
+                            <div id="bib" class="container">
+                                <i class="bi bi-eye" id="bib1"></i>
+                                <i class="bi bi-heart" id="bib1"></i>
+                                <i class="bi bi-cart2" id="bib1"></i>
+                            </div>
+                        </div>
+                        <div  id="bro" class="col-12 col-sm-6  col-xl-4">
+                            <div id="bros1">
+                                <img src="images/i8.jpg.webp" class="img-fluid" alt="">
+                            </div>
+                            <div id="bros2">
+                                <h6>NIKE LATEST SNEAKER</h6>
+                                <span id="spbr">$25.00 </span>&nbsp;&nbsp;&nbsp;<strike><span>$35.00</span></strike>
+                            </div>
+                            <div id="bib" class="container">
+                                <i class="bi bi-eye" id="bib1"></i>
+                                <i class="bi bi-heart" id="bib1"></i>
+                                <i class="bi bi-cart2" id="bib1"></i>
+                            </div>
+                        </div>
+                        <div  id="bro" class="col-12 col-sm-6 col-xl-4">
+                            <div id="bros1">
+                                <img src="images/n3.jpg.webp" class="img-fluid" alt="">
+                            </div>
+                            <div id="bros2">
+                                <h6>NIKE LATEST SNEAKER</h6>
+                                <span id="spbr">$25.00 </span>&nbsp;&nbsp;&nbsp;<strike><span>$35.00</span></strike>
+                            </div>
+                            <div id="bib" class="container">
+                                <i class="bi bi-eye" id="bib1"></i>
+                                <i class="bi bi-heart" id="bib1"></i>
+                                <i class="bi bi-cart2" id="bib1"></i>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Browse category section over -->
+
+
+    
+
+<footer>
+    <div class="container" id="footm">
+        <div class="row" id="footc">
+            <div id="footi" class="col-12 col-sm-6 col-md-4 col-xl-2 mb-4">
+                <h5>Top Products</h5>
+                <li>Managed Website</li>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Marketing Service</li>
+            </div>
+            <div id="footi"  class="col-12 col-sm-6 col-md-4 col-xl-2">
+                <h5>Quick Links</h5>
+                <li>Jobs</li>
+                <li>Brand Assets</li>
+                <li>Investor Relations</li>
+                <li>Terms of Service</li>
+            </div>
+            <div id="footi"  class="col-12 col-sm-6 col-xl-4 col-xl-2">
+                <h5>Features</h5>
+                <li>Jobs</li>
+                <li>Brand Assets</li>
+                <li>Investor Relations</li>
+                <li>Terms of Service</li>
+            </div>
+            <div id="footi"  class="col-12 col-sm-6 col-md-6 col-xl-2">
+                <h5>Resources</h5>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Agencies</li>
+            </div>
+            <div id="footi"  class="col-12 col-sm-12 col-md-6 col-xl-4 ">
+                <h5>Newsletter</h5>
+                <p>You can trust us. we only send promo offers,</p>
+                <input type="email" placeholder="Your Email Address" name="" id="" >
+                <button id="btnf">SUBSCRIBE</button>
+            </div>
+        </div>
+    </div>
+    <div id="foote" class="container">
+        <div id="footec">
+            <h6>Copyright ©2023 All rights reserved | This template is made with  by <span id="ft">Madhavi Khunt</span></h6>
+        </div>
+        <div id="footec">
+            <i class="bi bi-facebook" id="bif"></i><i class="bi bi-twitter" id="bif"></i><i class="bi bi-dribbble" id="bif"></i><i class="bi bi-behance" id="bif"></i>
+        </div>
+    </div>
+</footer> 
+
+    
+</body>
+</html>

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+     <!-- Website link --> <link rel="stylesheet" href="https://preview.colorlib.com/#eiser">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+     <!-- css link --> <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+ 
+     <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+</head>
+<body>
+
+
+    
+    <div  id="head">
+        <div id="heu">
+            <div class=" container d-flex justify-content-between" id="hec">
+                <div id="heum">
+                <span> PHONE: +01 256 25 235</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span> EMAIL: INFO@EISER.COM</span>
+                </div>
+                <div id="heum">
+                    <span id="sph" style="text-decoration: none;"><a href="shopping_cart.html" style="text-decoration: none;" class="text-black">GIFT CARD</a></span>&nbsp;&nbsp;&nbsp;
+                    <span id="sph" style="text-decoration: none;"><a href="tracking.html" style="text-decoration: none;" class="text-black">TRACK ORDER</a></span>&nbsp;&nbsp;&nbsp;
+                    <span id="sph" style="text-decoration: none;"> <a href="contact.html" style="text-decoration: none;" class="text-black">CONTACT US</a></span>
+                </div>
+            </div>
+        </div>
+        <div id="nah">
+        <div class="container">
+        <nav class="navbar navbar-expand-lg" id="headm">
+          <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-1">
+                        <a class="nav-link active " aria-current="page" href="index.html" id="la1">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown px-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="la" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            SHOP
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item ps-4" href="shop_category.html">SHOP CATEGORY</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item ps-4" href="Product_details.html"> PRODUCT DETAILS</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item ps-4" href="Product Checkout.html">PRODUCT CHECKOUT</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item ps-4" href="shopping_cart.html">SHOPPING CART</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown px-1">
+                            <a class="nav-link dropdown-toggle" id="la" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            BLOG
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item ps-4" href="blog.html">BLOG</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item ps-4" href="blog_details.html">BLOG DETAILS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown px-1">
+                        <a class="nav-link dropdown-toggle" id="la" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PAGES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item ps-4" href="tracking.html">TRACKING</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item ps-4" href="elements.html">ELEMENTS</a></li>
+                        </ul>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" id="la" href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                <div>
+                    <i class="bi bi-search" id="fah"></i>
+                    <i class="bi bi-cart" id="fah"></i>
+                    <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="btnh">
+                            Login
+                            </button>
+                            <!-- Vertically centered modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Login Form</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input type="email" placeholder="Enter Your Email" class="form-control" required><br>
+                                        <input type="password" placeholder="Enter Password" name="" id="" class="form-control" required>
+                                        <br>
+                                        <button type="button" class="btn btn-primary form-control">Login</button>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <P>Not a member ? <a href="account.html" style="text-decoration: none;">Create an Account</a></P>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                                </div>
+                            </div>
+             </nav>
+            </div>
+        </div>
+        </div>
+
+
+
+
+        
+          <!-- shop category section start -->
+    <section id="category1" >
+        <div class="container p-5 ">
+            <div class="row justify-content-between ">
+                <div class=" col-sm-12 col-md-6">
+                    <h3>Blog Details</h3>
+                    <p>Very us move be blessed multiply night</p>
+                </div>
+                <div class=" col-sm-12  col-md-6 d-flex m-auto" id="top">
+                    <li style="list-style: none;" class="p-3"> <a  href="index.html" class="nav-link" id="cli">Home</a></li>
+                    <li style="list-style: none;" class="p-3 align-content-end"> <a href="blog.html" class="nav-link "  id="cli">Blog</a></li>
+                    <li style="list-style: none;" class="p-3 align-content-end"> <a href="blog_details.html" class="nav-link "  id="cli">Blog Details</a></li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- shop category section over -->
+
+
+
+    
+    <div id="office">
+        <div class="container" id="offc">
+            <div class="row" id="offr">
+                <div id="offd" class="col-sm-12 col-xl-8">
+                    <div id="blogs">
+                        <div id="offi">
+                            <img src="images/m-blog-1.jpg.webp" class="img-fluid" alt="">
+                        </div>
+                        <div id="offis">
+                            <h3>Second divided from form fish beast made every of seas all gathered us saying he our</h3>
+                            <i class="bi bi-person text-secondary"></i>&nbsp;<span class="text-secondary"> Travel, Lifestyle</span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-chat text-secondary"></i>&nbsp;<span class="text-secondary"> 03 Comments</span>
+                        </div>
+                        <div id="bp">
+                            <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower</p>
+                            <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually</p>
+                        </div>
+                        <div id="bpb">
+                            <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training.</p>
+                        </div>
+                        <div id="rp">
+                            <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower</p>
+                            <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually</p>
+                        </div>
+                        <hr>
+                        <div id="icon" class="d-flex justify-content-between col-md-6">
+                            <div id="icd">
+                                <i class="bi bi-heart"></i>&nbsp;&nbsp;&nbsp;<span>Lily and 4 people like this</span>
+                            </div>
+                            <div  id="icd">
+                                <i class="bi bi-chat"></i>&nbsp;&nbsp;&nbsp;<span> 06 Comments</span>
+                            </div>
+                            <div  id="icd">
+                                <i class="bi bi-facebook"></i>&nbsp;&nbsp;&nbsp;<i class="bi bi-twitter"></i>&nbsp;&nbsp;&nbsp;<i class="bi bi-dribbble"></i>&nbsp;&nbsp;&nbsp;<i class="bi bi-wordpress"></i>
+                            </div>
+                        </div>
+                        <div id="prpo" class="d-flex justify-content-between my-5 ">
+                            <div class="d-flex row align-items-end" id="prpoi">
+                                <div id="prpos">
+                                    <img src="images/prev.jpg.webp" alt=""  class="img-fluid">
+                                </div>
+                                <div id="prpost">
+                                    <p>Prev Post</p>
+                                    <h5>Space The Final Frontier</h5>
+                                </div>
+                            </div>
+                            <div class="d-flex row"  id="prpoi">
+                                <div id="prpost1">
+                                    <p>Next Post</p>
+                                    <h5>Telescopes 101</h5>
+                                </div>
+                                <div id="prpos">
+                                    <img src="images/next.jpg.webp" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div id="hm" class="d-flex">
+                            <div id="hmi">
+                                <img src="images/author.png.webp" class="img-fluid" alt="">
+                            </div>
+                            <div id="hmt">
+                                <h6>Harvard milan</h6>
+                                <p>Second divided from form fish beast made. Every of seas all gathered use saying you're, he our dominion twon Second divided from</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div id="com">
+                            <h6>05 Comments</h6>
+                            <div id="comd" class="d-flex">
+                                <div id="comdi">
+                                    <img src="images/c1.png.webp" class="img-fluid" alt="">
+                                </div>
+                                <div  id="comdi">
+                                    <p>Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser</p>
+                                    <div class="d-flex justify-content-between">
+                                        <div id="cosp">
+                                            <span>Emilly Blunt</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>December 4, 2017 at 3:12 pm</span>
+                                        </div>
+                                        <div id="cosp">
+                                            <p>REPLY</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="comd" class="d-flex">
+                                <div id="comdi">
+                                    <img src="images/c2.png.webp" class="img-fluid" alt="">
+                                </div>
+                                <div  id="comdi">
+                                    <p>Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser</p>
+                                    <div class="d-flex justify-content-between">
+                                        <div id="cosp">
+                                            <span>Emilly Blunt</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>December 4, 2017 at 3:12 pm</span>
+                                        </div>
+                                        <div id="cosp">
+                                            <p>REPLY</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="comd" class="d-flex">
+                                <div id="comdi">
+                                    <img src="images/c3.png.webp" class="img-fluid" alt="">
+                                </div>
+                                <div  id="comdi">
+                                    <p>Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser</p>
+                                    <div class="d-flex justify-content-between">
+                                        <div id="cosp">
+                                            <span>Emilly Blunt</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>December 4, 2017 at 3:12 pm</span>
+                                        </div>
+                                        <div id="cosp">
+                                            <p>REPLY</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div id="ler">
+                            <h6>Leave a Reply</h6>
+                            <textarea name="" class="form-control" placeholder="write a comment" id="" cols="30" rows="7"></textarea><br>
+                            <input type="text" placeholder="Name" name="" id="leri">
+                            <input type="email" placeholder="Email" name="" id="leri"><br><br>
+                            <input type="text" placeholder="website" name="" id="" class="form-control"><br>
+                            <button id="btnler">SEND MESSAGE</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="offd" class="col-sm-12 col-xl-4 ">
+                    <div class="container" id="offdco">
+                        <div id="offd1">
+                            <input type="text" placeholder="Search Keyword" name="" id="" class="form-control"><br>
+                            <button id="sebi" class="form-control">SEARCH</button>
+                        </div>
+                        <div id="offda">
+                            <h5>Category</h5>
+                            <hr>
+                            <p>Brand Cloth(37)</p>
+                            <hr>
+                            <p>Travel news(10)</p>
+                            <hr>
+                            <p>Modern technology(03)</p>
+                            <hr>
+                            <p>Product(11)</p>
+                            <hr>
+                            <p>Inspiration21</p>
+                            <hr>
+                            <p>Health Care (21)09</p>
+                        </div>
+                        <div id="offdb">
+                            <h5>Recent Post</h5>
+                            <hr>
+                            <div class="d-flex justify-content-evenly mb-4">
+                                <img src="images/post1.jpg.webp" alt="">
+                                <div>
+                                    <h6>From life was you fish...</h6>
+                                    <p>January 12, 2019</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-evenly mb-4">
+                                <img src="images/post2.jpg.webp" alt="">
+                                <div>
+                                    <h6>From life was you fish...</h6>
+                                    <p>January 12, 2019</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-evenly mb-4">
+                                <img src="images/post3.jpg.webp" alt="">
+                                <div>
+                                    <h6>From life was you fish...</h6>
+                                    <p>January 12, 2019</p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-evenly">
+                                <img src="images/post4.jpg.webp" alt="">
+                                <div>
+                                    <h6>From life was you fish...</h6>
+                                    <p>January 12, 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Tag">
+                            <h5>Tag Clouds</h5>
+                            <hr class="mb-5">
+                            <button id="btag">project</button>
+                            <button id="btag">love</button>
+                            <button id="btag">technology</button>
+                            <button id="btag">travel</button>
+                            <button id="btag">restaurant</button>
+                            <button id="btag">life style</button>
+                            <button id="btag">design</button>
+                            <button id="btag">illustration</button>
+                        </div>
+                        <div id="Feeds">
+                            <h5>Instagram Feeds</h5>
+                            <hr class="mb-5">
+                            <div class="d-flex justify-content-evenly">
+                                <img src="images/widget-i1.png.webp" alt="" class="img-fluid m-1">
+                                <img src="images/widget-i2.png.webp" alt="" class="img-fluid m-1">
+                                <img src="images/widget-i3.png.webp" class="img-fluid m-1" alt="">
+                            </div>
+                            <div class="d-flex justify-content-evenly">
+                                <img src="images/widget-i4.png.webp" alt="" class="img-fluid m-1">
+                                <img src="images/widget-i5.png.webp" alt="" class="img-fluid m-1">
+                                <img src="images/widget-i6.png.webp" class="img-fluid m-1" alt="">
+                            </div>
+                        </div>
+                        <div id="Nel">
+                            <h5>Newsletter</h5>
+                            <hr class="mb-5">
+                            <input type="email" placeholder="Enter Email" name="" id="" class="form-control"><br>
+                            <button id="btnel">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    
+<footer>
+    <div class="container" id="footm">
+        <div class="row" id="footc">
+            <div id="footi" class="col-12 col-sm-6 col-md-4 col-xl-2 mb-4">
+                <h5>Top Products</h5>
+                <li>Managed Website</li>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Marketing Service</li>
+            </div>
+            <div id="footi"  class="col-12 col-sm-6 col-md-4 col-xl-2">
+                <h5>Quick Links</h5>
+                <li>Jobs</li>
+                <li>Brand Assets</li>
+                <li>Investor Relations</li>
+                <li>Terms of Service</li>
+            </div>
+            <div id="footi"  class="col-12 col-sm-6 col-md-4 col-xl-2">
+                <h5>Features</h5>
+                <li>Jobs</li>
+                <li>Brand Assets</li>
+                <li>Investor Relations</li>
+                <li>Terms of Service</li>
+            </div>
+            <div id="footi"  class="col-12 col-sm-6 col-md-6 col-xl-2">
+                <h5>Resources</h5>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Agencies</li>
+            </div>
+            <div id="footi"  class="col-12 col-sm-12 col-md-6 col-xl-4 ">
+                <h5>Newsletter</h5>
+                <p>You can trust us. we only send promo offers,</p>
+                <input type="email" placeholder="Your Email Address" name="" id="" >
+                <button id="btnf">SUBSCRIBE</button>
+            </div>
+        </div>
+    </div>
+    <div id="foote" class="container">
+        <div id="footec">
+            <h6>Copyright ©2023 All rights reserved | This template is made with  by <span id="ft">Madhavi Khunt</span></h6>
+        </div>
+        <div id="footec">
+            <i class="bi bi-facebook" id="bif"></i><i class="bi bi-twitter" id="bif"></i><i class="bi bi-dribbble" id="bif"></i><i class="bi bi-behance" id="bif"></i>
+        </div>
+    </div>
+</footer> 
+    
+</body>
+</html>

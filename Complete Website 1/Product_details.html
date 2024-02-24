@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-Details</title>
+     <!-- Website link --> <link rel="stylesheet" href="https://preview.colorlib.com/#eiser">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+     <!-- css link --> <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+     <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />                
+</head>
+<body>
+
+
+
+      
+    <div  id="head">
+        <div id="heu">
+            <div class=" container d-flex justify-content-between" id="hec">
+                <div id="heum">
+                <span> PHONE: +01 256 25 235</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span> EMAIL: INFO@EISER.COM</span>
+                </div>
+                <div id="heum">
+                    <span id="sph" style="text-decoration: none;"><a href="shopping_cart.html" style="text-decoration: none;" class="text-black">GIFT CARD</a></span>&nbsp;&nbsp;&nbsp;
+                    <span id="sph" style="text-decoration: none;"><a href="tracking.html" style="text-decoration: none;" class="text-black">TRACK ORDER</a></span>&nbsp;&nbsp;&nbsp;
+                    <span id="sph" style="text-decoration: none;"> <a href="contact.html" style="text-decoration: none;" class="text-black">CONTACT US</a></span>
+                </div>
+            </div>
+        </div>
+        <div  id="nah">
+            <div class="container">
+        <nav class="navbar navbar-expand-lg" id="headm">
+          <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-1">
+                        <a class="nav-link active " aria-current="page" href="index.html" id="la1">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown px-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="la" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            SHOP
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item ps-4" href="shop_category.html">SHOP CATEGORY</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item ps-4" href="Product_details.html"> PRODUCT DETAILS</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item ps-4" href="Product Checkout.html">PRODUCT CHECKOUT</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item ps-4" href="shopping_cart.html">SHOPPING CART</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown px-1">
+                            <a class="nav-link dropdown-toggle" id="la" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            BLOG
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item ps-4" href="blog.html">BLOG</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item ps-4" href="blog_details.html">BLOG DETAILS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown px-1">
+                            <a class="nav-link dropdown-toggle" id="la" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                PAGES
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item ps-4" href="tracking.html">TRACKING</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item ps-4" href="elements.html">ELEMENTS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" id="la" href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                <div>
+                    <i class="bi bi-search" id="fah"></i>
+                    <i class="bi bi-cart" id="fah"></i>
+                    <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="btnh">
+                            Login
+                            </button>
+                            <!-- Vertically centered modal -->
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Login Form</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input type="email" placeholder="Enter Your Email" class="form-control" required><br>
+                                        <input type="password" placeholder="Enter Password" name="" id="" class="form-control" required>
+                                        <br>
+                                        <button type="button" class="btn btn-primary form-control">Login</button>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <P>Not a member ? <a href="account.html" style="text-decoration: none;">Create an Account</a></P>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                                </div>
+                            </div>
+             </nav>
+            </div>
+            </div>
+        </div>
+
+
+
+    <!-- shop category section start -->
+    <section id="category1">
+        <div class="container p-5 ">
+            <div class="row justify-content-between ">
+                <div class=" col-sm-12 col-md-6">
+                    <h3>Product Details</h3>
+                    <p>Very us move be blessed multiply night</p>
+                </div>
+                <div class=" col-sm-12  col-md-6 d-flex m-auto">
+                    <li style="list-style: none;" class="p-3"> <a  href="index.html" class="nav-link" id="cli">Home</a></li>
+                    <li style="list-style: none;" class="p-3"> <a href="" class="nav-link"  id="cli">Product Details</a></li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- shop category section over -->
+
+
+    <div id="prode">
+        <div class="container" id="prodec">
+        <div id="prodem" class="row">
+            <div class="col-sm-12 col-xl-5">
+                  <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="images/s-product-1.jpg.webp" class="img-fluid" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/s-product-1.jpg.webp" class="img-fluid" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/s-product-1.jpg.webp" class="img-fluid" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>         
+            </div>
+            <div class="col-sm-12 col-xl-6" id="broded">
+                <h5>Faded SkyBlu Denim Jeans</h5>
+                <h6>$149.99</h6><br>
+                <span id="spg">Category : </span><span id="spgr"> Household</span><br><br>
+                <span id="spg">Availibility : </span><span id="spgr">In Stock</span><br><br>
+                <p>Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.</p>
+                <label for=":">Quantity :</label>
+                <input type="number" name="" id="" class="w-25" value="1"><br><br>
+                <button id="btnpd">ADD TO CART</button><i class="bi bi-gem" id="bipd"></i><i class="bi bi-heart" id="bipd"></i>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div id="review" class="pb-5">
+        <div class="container" id="revic">
+            <div id="revim">
+                <h4>Description</h4>
+                <p>Beryl Cook is one of Britain’s most talented and amusing artists .Beryl’s pictures feature women of all shapes and sizes enjoying themselves .Born between the two world wars, Beryl Cook eventually left Kendrick School in Reading at the age of 15, where she went to secretarial school and then into an insurance office. After moving to London and then Hampton, she eventually married her next door neighbour from Reading, John Cook. He was an officer in the Merchant Navy and after he left the sea in 1956, they bought a pub for a year before John took a job in Southern Rhodesia with a motor company. Beryl bought their young son a box of watercolours, and when showing him how to use it, she decided that she herself quite enjoyed painting. John subsequently bought her a child’s painting set for her birthday and it was with this that she produced her first significant work, a half-length portrait of a dark-skinned lady with a vacant expression and large drooping breasts. It was aptly named ‘Hangover’ by Beryl’s husband and</p>    
+                <p>It is often frustrating to attempt to plan meals that are designed for one. Despite this fact, we are seeing more and more recipe books and Internet websites that are dedicated to the act of cooking for one. Divorce and the death of spouses or grown children leaving for college are all reasons that someone accustomed to cooking for more than one would suddenly need to learn how to adjust all the cooking practices utilized before into a streamlined plan of cooking that is more efficient for one person creating less</p>
+            </div>
+            <div id="revim1">
+                <h4>Specification</h4>
+                <span id="spr">Width</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>128mm</span><br>
+                <span  id="spr">Height</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>508mm</span><br>
+                <span  id="spr">Depth</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>85mm</span><br>
+                <span  id="spr">Weight</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>52mm</span><br>
+                <span  id="spr">Quality checking</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Yes</span><br>
+                <span  id="spr">Freshness Duration</span>&nbsp;&nbsp;<span>03 Days</span><br>
+                <span  id="spr">When packeting</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>128mm</span><br>
+                <span  id="spr">Each Box contains</span>&nbsp;&nbsp;&nbsp;<span>128mm</span><br>
+            </div>
+            <div id="revim1">
+                <h4>Comments</h4>
+                <div id="revimc" class="row justify-content-between">
+                    <div id="recomd1" class="col-sm-12 col-xl-6">
+                        <div id="recomc" class="row justify-content-between" >
+                            <div id="recomc1" class="col-sm-12 col-xl-6">
+                                <img src="images/review-1.png.webp" class="img-fluid" alt="">
+                                <div id="ref">
+                                    <h6>Blake Ruiz12th</h6><p>Feb, 2017 at 05:56 pm</p>
+                                </div>
+                            </div>
+                            <div id="recomc1" class="col-3">
+                                <button id="btnrc">Reply</button>
+                            </div>
+                        </div>
+                        <div id="recomc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                        </div>
+                        <div id="recomc" class="row justify-content-between" >
+                            <div id="recomc1" class="col-sm-12 col-xl-6">
+                                <img src="images/review-2.png.webp" class="img-fluid" alt="">
+                                <div id="ref">
+                                    <h6>Blake Ruiz12th</h6><p>Feb, 2017 at 05:56 pm</p>
+                                </div>
+                            </div>
+                            <div id="recomc1" class="col-3">
+                                <button id="btnrc">Reply</button>
+                            </div>
+                        </div>
+                        <div id="recomc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                        </div>
+                        <div id="recomc" class="row justify-content-between" >
+                            <div id="recomc1" class="col-sm-12 col-xl-6">
+                                <img src="images/review-3.png.webp" class="img-fluid" alt="">
+                                <div id="ref">
+                                    <h6>Blake Ruiz12th</h6><p>Feb, 2017 at 05:56 pm</p>
+                                </div>
+                            </div>
+                            <div id="recomc1" class="col-3">
+                                <button id="btnrc">Reply</button>
+                            </div>
+                        </div>
+                        <div id="recomc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                        </div>
+                    </div>
+                    <div id="recomd2" class="col-sm-12 col-xl-6 ">
+                        <div id="recote">
+                            <h2 class="ms-3">Post a comment</h2>
+                        </div>
+                        <div id="recomform" class="container">
+                            <input type="text" placeholder="Your Full Name" class="form-control" name="" id="">
+                            <br>
+                            <input type="email" placeholder="Email Address" class="form-control"  name="" id=""><br>
+                            <input type="text" placeholder="Phone Number" class="form-control"  name="" id=""><br>
+                            <textarea name="" placeholder="Message" class="p-3 form-control" id=""  cols="72" rows="3"></textarea><br>
+                            <input type="submit" class="p-2 px-5" name="" id="sub">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="revim1" class="mb-0 ">
+                <div id="revimc" class="row justify-content-between mb-0">
+                    <div id="recomd1" class="col-sm-12 col-xl-6 mb-0">
+                        <div id="recomc" class="row justify-content-between" >
+                            <div id="overall" class="row pb-5">
+                                <div class="col-sm-12 col-xl-6 text-center bg-body-tertiary pb-4 p-2" id="overtext">
+                                    <h6>Overall</h6>
+                                    <h2>4.0</h2>
+                                    <p>(03 Reviews)</p>
+                                </div>
+                                <div class="col-sm-12 col-xl-6 p-3" id="overbi">
+                                    <h5>Based on 3 Reviews</h5>
+                                    <span>5 Star <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>01</span><br>
+                                    <span>4 Star <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>01</span><br>
+                                    <span>3 Star <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>01</span><br>
+                                    <span>2 Star <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>01</span><br>
+                                    <span>1 Star <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>01</span>
+                                </div>
+                            </div>
+                            <div id="recomc1" class="col-sm-12 col-xl-6">
+                                <img src="images/review-1.png.webp" class="img-fluid" alt="">
+                                <div id="ref">
+                                    <h6>Blake Ruiz12th</h6><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                            <div id="recomc1" class="col-3">
+                                <button id="btnrc">Reply</button>
+                            </div>
+                        </div>
+                        <div id="recomc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                        </div>
+                        <div id="recomc" class="row justify-content-between" >
+                            <div id="recomc1" class="col-sm-12 col-xl-6">
+                                <img src="images/review-2.png.webp" class="img-fluid" alt="">
+                                <div id="ref">
+                                    <h6>Blake Ruiz12th</h6><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                            <div id="recomc1" class="col-3">
+                                <button id="btnrc">Reply</button>
+                            </div>
+                        </div>
+                        <div id="recomc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                        </div>
+                        <div id="recomc" class="row justify-content-between" >
+                            <div id="recomc1" class="col-sm-12 col-xl-6">
+                                <img src="images/review-3.png.webp" class="img-fluid" alt="">
+                                <div id="ref">
+                                    <h6>Blake Ruiz12th</h6><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                            <div id="recomc1" class="col-3">
+                                <button id="btnrc">Reply</button>
+                            </div>
+                        </div>
+                        <div id="recomc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                        </div>
+                    </div>
+                    <div id="recomd2" class="col-sm-12 col-xl-6 ">
+                        <div id="recote">
+                            <h2 class="ms-3">Add a Review</h2>
+                        </div>
+                        <div id="recomform" class="container">
+                            <input type="text" placeholder="Your Full Name" class="form-control" name="" id="">
+                            <br>
+                            <input type="email" placeholder="Email Address" class="form-control"  name="" id=""><br>
+                            <input type="text" placeholder="Phone Number" class="form-control"  name="" id=""><br>
+                            <textarea name="" placeholder="Review" class="p-3 form-control" id="" cols="72" rows="3"></textarea><br>
+                            <input type="submit" class="p-2 px-5" name="" id="sub">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <div class="container" id="footm">
+            <div class="row" id="footc">
+                <div id="footi" class="col-12 col-sm-6 col-md-4 col-xl-2 mb-4">
+                    <h5>Top Products</h5>
+                    <li>Managed Website</li>
+                    <li>Manage Reputation</li>
+                    <li>Power Tools</li>
+                    <li>Marketing Service</li>
+                </div>
+                <div id="footi"  class="col-12 col-sm-6 col-md-4 col-xl-2">
+                    <h5>Quick Links</h5>
+                    <li>Jobs</li>
+                    <li>Brand Assets</li>
+                    <li>Investor Relations</li>
+                    <li>Terms of Service</li>
+                </div>
+                <div id="footi"  class="col-12 col-sm-6 col-md-4 col-xl-2">
+                    <h5>Features</h5>
+                    <li>Jobs</li>
+                    <li>Brand Assets</li>
+                    <li>Investor Relations</li>
+                    <li>Terms of Service</li>
+                </div>
+                <div id="footi"  class="col-12 col-sm-6 col-md-6 col-xl-2">
+                    <h5>Resources</h5>
+                    <li>Guides</li>
+                    <li>Research</li>
+                    <li>Experts</li>
+                    <li>Agencies</li>
+                </div>
+                <div id="footi"  class="col-12 col-sm-12 col-md-6 col-xl-4 ">
+                    <h5>Newsletter</h5>
+                    <p>You can trust us. we only send promo offers,</p>
+                    <input type="email" placeholder="Your Email Address" name="" id="" >
+                    <button id="btnf">SUBSCRIBE</button>
+                </div>
+            </div>
+        </div>
+        <div id="foote" class="container">
+            <div id="footec">
+                <h6>Copyright ©2023 All rights reserved | This template is made with  by <span id="ft">Madhavi Khunt</span></h6>
+            </div>
+            <div id="footec">
+                <i class="bi bi-facebook" id="bif"></i><i class="bi bi-twitter" id="bif"></i><i class="bi bi-dribbble" id="bif"></i><i class="bi bi-behance" id="bif"></i>
+            </div>
+        </div>
+    </footer> 
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+                
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>       
+
+</body>
+</html>
